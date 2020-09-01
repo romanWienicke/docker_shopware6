@@ -25,7 +25,7 @@ services:
     volumes:
       - ./db:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: roman
+      MYSQL_ROOT_PASSWORD: shopware
     
   phpmyadmin:
     container_name: 'sw6-database-phpmyadmin'
