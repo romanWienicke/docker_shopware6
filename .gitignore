@@ -1,9 +1,8 @@
 # exclude everything
 www/*
 db/*
-config/php/conf.d/*
+
 
 # exception to the rule
 !www/.gitkeep
 !db/.gitkeep
-!config/php/conf.d/.gitkeep
